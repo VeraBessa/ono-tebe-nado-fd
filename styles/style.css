@@ -15,12 +15,12 @@ header {
   flex-direction: row;
   height: 105px;
   width: 391.48px;
-  white-space: nowrap; 
+  white-space: nowrap;
   text-underline-offset: 4px;
   justify-self: start;
   margin: 0;
   padding: 0;
-  align-items: center; 
+  align-items: center;
 }
 
 .menu-list {
@@ -57,9 +57,9 @@ header {
   align-items: center;
 }
 .header__logo-image {
-  justify-self: center; 
-  width: 148px;         
-  height: 105px;        
+  justify-self: center;
+  width: 148px;
+  height: 105px;
   display: block;
 }
 
@@ -75,7 +75,6 @@ header {
   padding: 0;
   height: 98px;
   text-underline-offset: 5px;
-
 }
 
 .phone-link {
@@ -88,12 +87,10 @@ header {
   height: 24px;
 }
 
-
 .adress {
   width: 236.49px;
   height: 49px;
 }
-
 
 .cover {
   display: flex;
@@ -101,7 +98,7 @@ header {
   min-height: 757px;
   background-size: cover;
   background-position: center;
-  position: relative; 
+  position: relative;
   width: 100%;
   max-width: 1100px;
 }
@@ -120,7 +117,7 @@ header {
 }
 
 .accent_span {
-  display:block;
+  display: block;
 }
 
 .aligned-text_left {
@@ -137,7 +134,6 @@ header {
   position: relative;
   top: 36.5px;
   left: 613px;
-
 }
 
 .cover_overlay {
@@ -148,7 +144,6 @@ header {
   z-index: 0;
 }
 
-
 .description {
   display: flex;
   position: absolute;
@@ -157,7 +152,7 @@ header {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 400;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   padding: 656px 50px;
   gap: 107px;
@@ -177,7 +172,7 @@ header {
   width: 256px;
   height: 51px;
   font-size: 22px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -200,7 +195,6 @@ header {
   width: 121px;
   height: 47px;
   left: 40px;
-
 }
 
 .lots__card-list {
@@ -234,9 +228,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 48px 40px; 
+  padding: 48px 40px;
   box-sizing: border-box;
-  width: 334px;
 }
 
 .lots_overlay {
@@ -263,12 +256,11 @@ header {
   text-transform: uppercase;
   padding: 0;
   max-width: 254px;
-  letter-spacing: 0; 
+  letter-spacing: 0;
   line-height: 120%;
   text-underline-offset: 3px;
   font-style: Bold;
   font-size: 22px;
-  text-decoration: underline;
 }
 
 .card__text {
@@ -323,7 +315,7 @@ header {
 
 .about__logo {
   background-color: black;
-  border-radius: 50%; 
+  border-radius: 50%;
   width: 240px;
   height: 240px;
   display: flex;
@@ -342,7 +334,7 @@ header {
 .about__column {
   display: flex;
   flex-direction: column;
-  
+
   gap: 92px;
   justify-content: space-between;
 }
@@ -438,7 +430,7 @@ footer {
 }
 
 .footer__social-link {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
