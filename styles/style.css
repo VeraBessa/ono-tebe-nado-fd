@@ -6,7 +6,6 @@ header {
   font-size: 18px;
   line-height: 24.3px;
   width: 1100px;
-  margin: 0 auto;
 }
 
 .header-menu {
@@ -101,8 +100,6 @@ header {
   width: 1100px;
   background-size: cover;
   background-position: center;
-  margin: 0 auto;
-  
   position: relative; 
 }
 
@@ -117,7 +114,6 @@ header {
   z-index: 1;
   margin: 165px 50px 207px;
   letter-spacing: 30%;
-  font-weight: bold;
 }
 
 .accent_span {
@@ -186,7 +182,6 @@ header {
 
 .lots {
   width: 1052px;
-  margin: 0 auto;
   margin: 180px 24px 120px;
   min-height: 723px;
 }
@@ -239,8 +234,6 @@ header {
   padding: 48px 40px; 
   box-sizing: border-box;
   width: 334px;
-  height: 596px;
-
 }
 
 .lots_overlay {
@@ -274,10 +267,7 @@ header {
   text-underline-offset: 3px;
   font-style: Bold;
   font-size: 22px;
-  letter-spacing: 0%;
   text-decoration: underline;
-  text-decoration-thickness: 0%;
-
 }
 
 .card__text {
@@ -288,7 +278,6 @@ header {
   text-align: left;
   width: 100%;
   line-height: 120%;
-  
 }
 
 .card_type_book {
@@ -328,7 +317,6 @@ header {
   grid-template-columns: 334px 1fr;
   width: 1052px;
   height: 595px;
-  margin: 0 auto;
   margin: 120px 24px 180px;
 }
 
@@ -353,9 +341,7 @@ header {
 .about__column {
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  width: 693;
-  height: 449;
+  
   gap: 92px;
   justify-content: space-between;
 }
@@ -396,7 +382,6 @@ footer {
   min-height: 180px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  margin: 0 auto;
 }
 
 .footer_address {
