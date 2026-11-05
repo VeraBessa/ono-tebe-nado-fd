@@ -5,7 +5,9 @@ header {
   padding: 92px 50px 96px;
   font-size: 18px;
   line-height: 24.3px;
-  width: 1100px;
+  width: 100%;
+  max-width: 1100px;
+  box-sizing: border-box;
 }
 
 .header-menu {
@@ -97,10 +99,11 @@ header {
   display: flex;
   background-image: url("../images/cover.jpg");
   min-height: 757px;
-  width: 1100px;
   background-size: cover;
   background-position: center;
   position: relative; 
+  width: 100%;
+  max-width: 1100px;
 }
 
 .cover_title {
@@ -181,9 +184,9 @@ header {
 }
 
 .lots {
-  width: 1052px;
-  margin: 180px 24px 120px;
+  margin: 180px auto 120px;
   min-height: 723px;
+  max-width: 1052px;
 }
 
 .lots__heading {
@@ -262,8 +265,6 @@ header {
   max-width: 254px;
   letter-spacing: 0; 
   line-height: 120%;
-  text-decoration-style: solid;
-  text-decoration-thickness: 1px;
   text-underline-offset: 3px;
   font-style: Bold;
   font-size: 22px;
@@ -315,9 +316,9 @@ header {
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  width: 1052px;
   height: 595px;
-  margin: 120px 24px 180px;
+  max-width: 1052px;
+  margin: 120px auto 180px;
 }
 
 .about__logo {
@@ -377,8 +378,6 @@ header {
 }
 
 footer {
-  width: 100%;
-  max-width: 1100px;
   min-height: 180px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
