@@ -107,13 +107,15 @@ header {
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
-  width: 1000px;
+  width: 100%;
   height: 385px;
   text-transform: uppercase;
   color: white;
   z-index: 1;
-  margin: 165px 50px 207px;
+  margin: 165px 0 207px;
+  padding: 0 50px;
   letter-spacing: 30%;
+  box-sizing: border-box;
 }
 
 .accent_span {
@@ -125,15 +127,11 @@ header {
 }
 
 .aligned-text_center {
-  position: relative;
-  top: 20px;
-  left: 330.5px;
+  text-align: center;
 }
 
 .aligned-text_right {
-  position: relative;
-  top: 36.5px;
-  left: 613px;
+  text-align: right;
 }
 
 .cover_overlay {
