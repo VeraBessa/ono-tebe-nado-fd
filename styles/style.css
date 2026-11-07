@@ -274,9 +274,9 @@ header {
 
 .about {
   display: grid;
-  grid-template-columns: 311px 1fr;
+  grid-template-columns: 334px 1fr;
   max-width: 1052px;
-  margin: 120px auto 180px;
+  margin: 120px 24px 180px;
 }
 
 .about__logo {
@@ -287,7 +287,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: static;
+  position: relative;
+  left: 47px;
+  top: 35px;
   margin: 0;
 }
 
@@ -299,10 +301,11 @@ header {
 .about__column {
   display: flex;
   flex-direction: column;
-  gap: 92px;
+  gap: 140px;
   justify-content: flex-start;
   position: relative;
-  top: 101px;
+  top: 90px;
+  left: 20px;
 }
 
 .about__title {
@@ -311,9 +314,10 @@ header {
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0%;
-  position: static;
+  position: relative;
   margin: 0;
   text-transform: uppercase;
+  top: 47px;
 }
 
 .about__text {
@@ -338,13 +342,13 @@ header {
 footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  align-items: start;
-  padding: 50px;
+  padding: 100px 24px 120px;
+  gap: 154px;
 }
 
 .footer_address {
   width: 264.57px;
-  justify-self: start;
+  justify-self: center;
 }
 
 .nowrap {
@@ -362,8 +366,6 @@ footer {
   white-space: nowrap;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
-  color: #000000;
-  justify-self: center;
 }
 
 .footer__menu-list {
@@ -378,7 +380,7 @@ footer {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 48px;
   margin: 0;
   padding: 0;
