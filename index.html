@@ -14,20 +14,17 @@
       <nav class="header-menu">
         <ul class="menu-list">
           <li class="header__links-list-item_no-bullit">
-            <a href="#cover" class="menu-link menu-cover" 
-            style="color:black" >
+            <a href="#cover" class="header__menu-link_activer" >
               главная
             </a>
           </li>
           <li>
-            <a href="#lots" class="menu-link menu-lots" 
-            style="color:black" >
+            <a href="#lots" class="header_menu-link">
               посмотреть лоты
             </a>
           </li>
           <li>
-            <a href="#about" class="menu-link menu-about" 
-            style="color:black" >
+            <a href="#about" class="header_menu-link" >
               об аукционе
             </a>
           </li>
@@ -35,17 +32,15 @@
       </nav>
       <a href="#" class="header__logo">
         <img class="header__logo-image"
-        src="../images/logo-black.svg"
+        src="./images/logo-black.svg"
         alt="Черный логотип оно тебе надо"
         />
       </a>
-      <address class="header-adress" >
-        <a href="tel:+99995555555"
-        style="color:black" class="phone-link" >
+      <address class="address header-adress" >
+        <a href="tel:+99995555555" class="phone-link" >
           +9 999 555 5555
         </a>
-        <a href="mailto:info@sobaka.ge" 
-        style="color:black" class="mail-link" >
+        <a href="mailto:info@sobaka.ge" class="mail-link" >
           info@sobaka.ge
         </a>
         <span class="adress">
@@ -55,8 +50,8 @@
     </header>
     <main>
       <section class="cover" id="cover">
-        <div class="cover_overlay"></div>
-        <h1 class="cover_title">
+        <div class="overlay"></div>
+        <h2 class="cover_title">
           <span class="accent_span aligned-text_left">
             оно 
           </span>
@@ -66,31 +61,30 @@
           <span class="accent_span aligned-text_right">
             надо 
           </span> 
-        </h1>
+        </h2>
         <div class="description">
           <p class="cover__description-text">
             аукцион вещей, в которые 
             никто не верил
           </p>
-          <button class="cover_button">
+          <button type="button" class="cover_button">
             сделать ставку
           </button>
         </div>
       </section>
       <section class="lots" id="lots">
-        <h1 class="lots__heading">
+        <h3 class="lots__heading">
           Лоты
-        </h1>
+        </h3>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a href="#0" class="card-link" style="color: white;"
-            >
+            <a href="#0" class="card-link">
               <article class="card card_type_film">
-                <div class="lots_overlay"></div>
-                <h2 class="card__title">
+                <div class="overlay"></div>
+                <h4 class="card__title">
                   Фильм режиссёра, 
                   который бросил киношколу
-                </h2>
+                </h4>
                 <p class="card__text">
                   Не просто бросил, 
                   а ушёл с первой лекции. 
@@ -102,13 +96,13 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="#0" class="card-link" style="color: white;">
+            <a href="#0" class="card-link">
               <article class="card card_type_book">
-                <div class="lots_overlay"></div>
-                <h2 class="card__title">
+                <div class="overlay"></div>
+                <h4 class="card__title">
                   Книга, где описан один скучный день 
                   из жизни рекламного агента
-                </h2>
+                </h4>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. 
                   Иногда без знаков препинания и 
@@ -123,14 +117,13 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="#0" class="card-link" style="color: white;"
-            >
+            <a href="#0" class="card-link">
               <article class="card card_type_picture">
-                <div class="lots_overlay"></div>
-                <h2 class="card__title">
+                <div class="overlay"></div>
+                <h4 class="card__title">
                   Картина, которую повторит даже 
                   5-летний сын маминой подруги
-                </h2>
+                </h4>
                 <p class="card__text">
                   Ну действительно, там линия, 
                   тут кружочек, а здесь и вовсе 
@@ -152,14 +145,14 @@
       <section class="about" id="about">
         <div class="about__logo">
           <img class="about__logo-image"
-          src="../images/logo-white.svg" 
+          src="./images/logo-white.svg" 
           alt="Белый логотип оно тебе надо"
           />
         </div>
         <div class="about__column">
-          <h1 class="about__title">
+          <h2 class="about__title">
             Об аукционе
-          </h1>
+          </h2>
           <div class="about__text">
             <p class="about__text-first">
               Здесь вы не встретите очередное пафосное 
@@ -187,23 +180,22 @@
       </section>
     </main>
     <footer>
-      <address class="footer_address">
-        <a href="tel:+99995555555" style="color: black;">
+      <address class="address footer_address">
+        <a href="tel:+99995555555">
           +9 999 555 5555
         </a>
-        <a href="mailto:info@sobaka.ge" style="color: black;">
+        <a href="mailto:info@sobaka.ge">
           info@sobaka.ge
         </a>
-        <span class="adress">
+        <p>
           наб. Принсенграхт 263-265, Амстердам
-        </span>
+        </p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
             <a href="#cover" 
-            class="footer__menu-link_active" 
-            style="color: black"
+            class="footer__menu-link_active"
             >
               главная
             </a>
@@ -211,15 +203,13 @@
           <li class="footer__menu-list-item">
             <a href="#lots" 
             class="footer__menu-link"
-            style="color: black"
             >
               посмотреть лоты
             </a>
           </li>
           <li class="footer__menu-list-item">
             <a href="#about" 
-            class="footer__menu-link" 
-            style="color: black" 
+            class="footer__menu-link"
             >
               об аукционе
             </a>
@@ -230,7 +220,7 @@
         <li class="footer__social-list-item">
           <a href="#0" class="footer__social-link">
             <img 
-            src="../images/yt.svg"
+            src="./images/yt.svg"
             alt="Youtube"
             class="footer__social-icon"
             />
@@ -239,7 +229,7 @@
         <li class="footer__social-list-item">
           <a href="#0" class="footer__social-link">
             <img 
-            src="../images/vk.svg"
+            src="./images/vk.svg"
             alt="VK"
             class="footer__social-icon"
             />
@@ -248,7 +238,7 @@
         <li class="footer__social-list-item">
           <a href="#0" class="footer__social-link">
             <img 
-            src="../images/pinterest.svg"
+            src="./images/pinterest.svg"
             alt="Pinterest"
             class="footer__social-icon"
             />
