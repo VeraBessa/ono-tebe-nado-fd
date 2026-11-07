@@ -342,7 +342,7 @@ header {
 footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 100px 24px 120px;
+  padding: 100px 24px;
   gap: 154px;
 }
 
